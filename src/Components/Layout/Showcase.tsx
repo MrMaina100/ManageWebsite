@@ -1,4 +1,4 @@
-import ShowcaseImage from '../../images/illustration-intro.svg'
+import ShowcaseImage from '../../../public/images/illustration-intro.svg'
 
 
 const Showcase = () => {
