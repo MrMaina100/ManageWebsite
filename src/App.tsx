@@ -5,10 +5,11 @@ import Testimonail from "./Components/Layout/Testimonail"
 import CTA from "./Components/Layout/CTA"
 import Footer from "./Components/Layout/Footer"
 import { Toaster } from "sonner"
-
+import { MantineProvider,  } from '@mantine/core';
 const App = () => {
   return (
     <div>
+      <MantineProvider>
       <Toaster richColors   position="bottom-right" />
       <Header/>
       <Showcase/>
@@ -16,6 +17,7 @@ const App = () => {
       <Testimonail/>
       <CTA/>
       <Footer/>
+      </MantineProvider>
 
     </div>
   )
